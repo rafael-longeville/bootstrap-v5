@@ -10801,6 +10801,26 @@ textarea.form-control-lg {
   }
 }
 
+.heading-line::before {
+  content: "";
+  width: 10rem;
+  height: 0.1rem;
+  display: block;
+  margin: 0 auto;
+  background-color: #1f178b;
+}
+
+.heading-line::after {
+  content: "";
+  width: 2rem;
+  padding-top: 0.5rem;
+  height: 0.2rem;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  background-color: #1f178b;
+}
+
 .menu {
   background: linear-gradient(to right, rgba(31, 23, 139, 0.95), rgba(57, 55, 66, 0.95));
 }
@@ -10811,6 +10831,24 @@ textarea.form-control-lg {
   color: #fff !important;
   text-transform: capitalize;
   font-weight: 600;
+}
+
+.campanies {
+  padding: 0 0 5rem 0;
+}
+.campanies__logo-box {
+  max-width: 100%;
+  height: 3rem;
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+  text-align: center;
+  position: relative;
+}
+.campanies__logo-box img {
+  height: 100%;
+}
+.campanies__logo-box img:hover {
+  filter: grayscale(120);
 }
 
 .intro-section {
