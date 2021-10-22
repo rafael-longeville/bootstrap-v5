@@ -10859,7 +10859,7 @@ textarea.form-control-lg {
 }
 
 .campanies {
-  padding: 0 0 5rem 0;
+  padding: 0 0 2rem 0;
 }
 .campanies__logo-box {
   max-width: 100%;
@@ -10947,18 +10947,18 @@ textarea.form-control-lg {
   padding: 0;
   background: linear-gradient(to right, rgba(31, 23, 139, 0.95), rgba(57, 55, 66, 0.95));
 }
-* .testimonials__card {
+.testimonials__card {
   background-color: rgba(255, 255, 255, 0.8);
   padding: 2rem 1.25rem;
   border-radius: 0.625rem;
   height: auto;
   text-align: center;
 }
-* .testimonials__card i {
+.testimonials__card i {
   font-size: 1.5rem;
   color: rgba(31, 23, 139, 0.7);
 }
-* .testimonials__card .ratings i {
+.testimonials__card .ratings i {
   color: rgba(31, 23, 139, 0.7);
   font-size: 1rem;
 }
@@ -10977,7 +10977,7 @@ textarea.form-control-lg {
   margin-bottom: 1rem;
   text-align: center;
   font-weight: 500;
-  color: rgba(255, 255, 255, 0.8);
+  color: #fff;
 }
 .testimonials__name h3 {
   padding-top: 0.8rem;
@@ -10986,6 +10986,11 @@ textarea.form-control-lg {
 .testimonials__name p {
   padding-bottom: 2rem;
   text-transform: capitalize;
+}
+
+.carde__center {
+  display: flex;
+  justify-content: center;
 }
 
 .footer {
