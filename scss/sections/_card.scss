@@ -1,0 +1,12 @@
+@use  '../custom' as * ;
+@use  '../components/mixins.scss';
+
+
+.carde {
+   
+    &__center {
+        display: flex;
+        justify-content: center;
+    }
+
+}

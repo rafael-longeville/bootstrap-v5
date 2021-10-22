@@ -1,9 +1,0 @@
-@use '../custom' as *;
-@use '../components/mixins.scss';
-
-.cv {
-    
-    &cv__waves {
-       color: rgba($primary, 0.8);
-    }
-}

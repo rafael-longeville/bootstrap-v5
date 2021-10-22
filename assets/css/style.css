@@ -10859,7 +10859,7 @@ textarea.form-control-lg {
 }
 
 .campanies {
-  padding: 0 0 5rem 0;
+  padding: 0 0 2rem 0;
 }
 .campanies__logo-box {
   max-width: 100%;
@@ -10988,6 +10988,11 @@ textarea.form-control-lg {
   text-transform: capitalize;
 }
 
+.carde__center {
+  display: flex;
+  justify-content: center;
+}
+
 .footer {
   padding-top: 1rem;
   background-color: #151414;
@@ -11076,10 +11081,6 @@ textarea.form-control-lg {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-.cvcv__waves {
-  color: rgba(31, 23, 139, 0.8);
 }
 
 /*# sourceMappingURL=style.css.map */
