@@ -11083,4 +11083,8 @@ textarea.form-control-lg {
   transform: translate(-50%, -50%);
 }
 
+.col-opt {
+  display: grid;
+}
+
 /*# sourceMappingURL=style.css.map */
