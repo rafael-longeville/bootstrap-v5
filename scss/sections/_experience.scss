@@ -193,3 +193,16 @@
       display: none;
   }
 }
+
+// Commencer le grid layout pour les créations
+
+.grid > div {
+  border: solid 1px #ccc;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 5px;
+  grid-template-rows: 2fr 2fr;
+}
