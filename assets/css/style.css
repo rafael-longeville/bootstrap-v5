@@ -11170,7 +11170,6 @@ textarea.form-control-lg {
 .timeline-row .timeline-content h4 {
   margin: 0 0 20px 0;
   overflow: hidden;
-  white-space: nowrap;
   text-overflow: ellipsis;
   line-height: 150%;
 }
@@ -11311,9 +11310,18 @@ textarea.form-control-lg {
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-column-gap: 5px;
-  grid-template-rows: 2fr 2fr;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  grid-column-gap: 10px;
+}
+
+.col > img {
+  max-width: 100%;
+  height: 100%;
+}
+
+.tab-photo {
+  max-width: 100%;
+  height: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
