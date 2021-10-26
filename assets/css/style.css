@@ -11319,6 +11319,11 @@ textarea.form-control-lg {
   height: 100%;
 }
 
+@media screen and (max-width: 480px) {
+  .col > img {
+    max-height: 168px;
+  }
+}
 .tab-photo {
   max-width: 100%;
   height: 100%;
